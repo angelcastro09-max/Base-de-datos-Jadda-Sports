@@ -189,7 +189,7 @@ CREATE TABLE PRODUCTOS (
 
 INSERT INTO PRODUCTOS (NOMBRE, MARCA, PRECIO, DESCRIPCION, ID_PROVEEDOR, ID_CATEGORIA, ID_DESCUENTO)
 VALUES
-('Guayos profesionales', 'Puma', 220000, 'Guayos para césped natural', 1, 1, NULL),
+('Guayos profesionales', 'Adidas', 220000, 'Guayos para césped natural', 1, 1, NULL),
 ('Balón Al Rihla Pro', 'Adidas', 320000, 'Balón oficial', 2, 1, NULL),
 ('Espinilleras', 'Nike', 70000, 'Protección fútbol', 1, 1, NULL),
 ('Guantes de Portero Future', 'Puma', 240000, 'Látex de alto agarre', 1, 1, NULL),
@@ -448,50 +448,50 @@ CREATE TABLE PRODUCTO_IMAGENES (
 );
 
 INSERT INTO PRODUCTO_IMAGENES (ID_PRODUCTO, URL_IMAGEN, ORDEN) VALUES
--- Producto 1
-(1, 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab', 1),
-(1, 'https://images.unsplash.com/photo-1542291026-7eec264c27ff', 2),
-(1, 'https://images.unsplash.com/photo-1599058917765-a780eda07a3e', 3),
+-- Guayos Predator 1
+(1, 'https://tse4.mm.bing.net/th/id/OIP.dM6R2y9wh0tdFIId5kWD5AHaE4?rs=1&pid=ImgDetMain&o=7&rm=3', 1),
+(1, 'https://cdnx.jumpseller.com/portel1te/image/67806419/a6c4eade.png?1758718494', 2),
+(1, 'https://cdnx.jumpseller.com/portel1te/image/67806934/0e655544.png?1758719930', 3),
 -- Producto 2
-(2, 'https://images.unsplash.com/photo-1600185365483-26d7a4cc7519', 1),
-(2, 'https://images.unsplash.com/photo-1517649763962-0c623066013b', 2),
-(2, 'https://images.unsplash.com/photo-1596462502278-27bfdc403348', 3),
+(2, 'https://http2.mlstatic.com/D_NQ_NP_689300-MLU79143397175_092024-O.webp', 1),
+(2, 'https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dwe9cc29cc/products/AD_H57783/AD_H57783-1.JPG', 2),
+(2, 'https://www.tradeinn.com/f/13842/138428497/adidas-balon-futbol-rihla-pro-wtr.jpg', 3),
 -- Producto 3
-(3, 'https://images.unsplash.com/photo-1517649763962-0c623066013b', 1),
-(3, 'https://images.unsplash.com/photo-1584467735871-8a4aab04dffb', 2),
-(3, 'https://images.unsplash.com/photo-1602143407151-7111542de6e8', 3),
+(3, 'https://tse1.mm.bing.net/th/id/OIP.w1ERYh67ZHgvxqS_9Bz45AHaHa?rs=1&pid=ImgDetMain&o=7&rm=3', 1),
+(3, 'https://media.futbolmania.com/media/catalog/product/cache/1/thumbnail/9df78eab33525d08d6e5fb8d27136e95/S/P/SP2120-104_imagen-de-las-espinilleras-de-futbol-con-media-Nike-Mercurial-Lite-2019-2020-blanco_1_frontal.jpg', 2),
+(3, 'https://soydechollos.com/storage/oferta/espinilleras-nike-mercurial-para-futbol.jpg', 3),
 -- Producto 4
-(4, 'https://images.unsplash.com/photo-1519861531473-9200262188bf', 1),
-(4, 'https://images.unsplash.com/photo-1600180758895-1c1bdb0f9e7b', 2),
-(4, 'https://images.unsplash.com/photo-1585386959984-a4155224a1ad', 3),
+(4, 'https://www.futbolemotion.com/imagesarticulos/243206/750/guantes-puma-future-pro-hybrid-negro-0.webp', 1),
+(4, 'https://tse3.mm.bing.net/th/id/OIP.pVNBp5dkmL7uL4Bp--LteQHaIa?rs=1&pid=ImgDetMain&o=7&rm=3', 2),
+(4, 'https://media.futbolmania.com/media/catalog/product/cache/1/9df78eab33525d08d6e5fb8d27136e95/0/4/041841-03_guantes-de-portero-color-negro-puma-future-ultimate-nc_1_completa-dorso-mano-derecha.jpg', 3),
 -- Producto 5
-(5, 'https://images.unsplash.com/photo-1599058917765-a780eda07a3e', 1),
-(5, 'https://images.unsplash.com/photo-1600180758890-6b94519a8ba5', 2),
-(5, 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61', 3),
+(5, 'https://soccerpost.com/cdn/shop/files/JZ8788_b2b012_plp_clipped_rev_1.png?v=1762430671', 1),
+(5, 'https://phantom.estaticos-marca.com/a6110799926d34e90981196ae64810da/resize/1320/f/jpg/assets/multimedia/imagenes/2025/10/05/17596752101525.jpg', 2),
+(5, 'https://img.asmedia.epimg.net/resizer/v2/SBL64GGCMFE5ZG5CLNQ3QXUPVE.jpg?auth=110d404941eb9591528f9a77c83e9d780b2776e86d114961b33078b944c3a275&width=1472&height=828&focal=590%2C19', 3),
 -- Producto 6
-(6, 'https://images.unsplash.com/photo-1596462502278-27bfdc403348', 1),
-(6, 'https://images.unsplash.com/photo-1594737625785-cb7f8c6c5b60', 2),
-(6, 'https://images.unsplash.com/photo-1599058917212-d750089bc07e', 3),
+(6, 'https://todoendeportes.com.co/wp-content/uploads/2023/09/Spalding-blanco.jpg', 1),
+(6, 'https://contents.mediadecathlon.com/p1683148/k$f9501129707a537c5ac177bd5d4f973d/sq/BAL+N+DE+BALONCESTO+SPALDING+NBA+ALL+STAR+talla+7.jpg', 2),
+(6, 'https://tse3.mm.bing.net/th/id/OIP.9k1sqf4k3k71aAzyMUZy5QHaHa?rs=1&pid=ImgDetMain&o=7&rm=3', 3),
 -- Producto 7
-(7, 'https://images.unsplash.com/photo-1584467735871-8a4aab04dffb', 1),
-(7, 'https://images.unsplash.com/photo-1542291026-7eec264c27ff', 2),
-(7, 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e', 3),
+(7, 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/753a0a56-e4b8-44d7-9eb5-a9d71a21ee0d/LEBRON+WITNESS+VIII.png', 1),
+(7, 'https://th.bing.com/th/id/R.6da7b997d23622bfecdf1f85121619e8?rik=wg1gC%2bgkVdQ0Gg&pid=ImgRaw&r=0', 2),
+(7, 'https://i5.walmartimages.com.mx/mg/gm/3pp/asr/08cd3c94-791c-4bb4-aac5-419527092517.1dfd8dffe5d2472f0ba27d4f3fec733d.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff', 3),
 -- Producto 8
-(8, 'https://images.unsplash.com/photo-1602143407151-7111542de6e8', 1),
-(8, 'https://images.unsplash.com/photo-1574629810360-7efbbe195018', 2),
-(8, 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a', 3),
+(8, 'https://jomasports.vtexassets.com/arquivos/ids/187330-800-auto?v=638634012554770000&width=800&height=auto&aspect=true', 1),
+(8, 'https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00068934434381L.jpg', 2),
+(8, 'https://www.tripl3shot.com/wp-content/uploads/Carro-balones-spalding-600x600.webp', 3),
 -- Producto 9
-(9, 'https://images.unsplash.com/photo-1600180758895-1c1bdb0f9e7b', 1),
-(9, 'https://images.unsplash.com/photo-1628153322151-35a12d307991', 2),
-(9, 'https://images.unsplash.com/photo-1560769629-975ec94e6a86', 3),
+(9, 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d7e84a0f-0fce-42aa-bb2d-4383d8fd99e1/sudadera-deportiva-con-capucha-y-cremallera-de-1-4-3mkkzw.png', 1),
+(9, 'https://cdn-images.farfetch-contents.com/28/45/77/29/28457729_58563324_1000.jpg', 2),
+(9, 'https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ebb30990-2a4d-4efe-a4d3-d732e1becd08/sudadera-con-capucha-de-cierre-completo-sportswear-Mn7XRp.jpg', 3),
 -- Producto 10
-(10, 'https://images.unsplash.com/photo-1585386959984-a4155224a1ad', 1),
-(10, 'https://images.unsplash.com/photo-1511191988486-103bc3cb8002', 2),
-(10, 'https://images.unsplash.com/photo-1622279457486-62dcc4a497c4', 3),
+(10, 'https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/940481152a8c48d0a0727a27ec7db0b9_9366/Ultraboost_Light_Running_Shoes_White_HQ6351_HM1.jpg', 1),
+(10, 'https://www.digitalsport.com.ar/files/products/6474dbb2b7a6c-602279-500x500.jpg', 2),
+(10, 'https://assets.adidas.com/images/w_940,f_auto,q_auto/0d8a313277d04b2e8d55fa7b5710ff0c_9366/GZ5159_HM3_hover.jpg', 3),
 -- Producto 11
-(11, 'https://images.unsplash.com/photo-1600180758890-6b94519a8ba5', 1),
-(11, 'https://images.unsplash.com/photo-1517841905240-472988babdf9', 2),
-(11, 'https://images.unsplash.com/photo-1552066344-24632e2df2b3', 3),
+(11, 'https://img.tennisonly.com.au/watermark/rs.php?path=SSC6MCW-1.jpg&nw=1462', 1),
+(11, 'https://cdn.awsli.com.br/2500x2500/1874/1874041/produto/316527552/8ce3492bf1b7c3fa181db681a5e34c3d-6c9p19f5r0.jpg', 2),
+(11, 'https://www.peregrinoteca.pt/uploads/media/images/zapatillas-salomon-speedcross-6-gtx-w-gris-1.jpg', 3),
 -- Producto 12
 (12, 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61', 1),
 (12, 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea', 2),
